@@ -4,8 +4,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-
-
 class learningfil extends JFrame implements ItemListener
 {
 	//JComboBox c1=new JComboBox();
