@@ -5,6 +5,7 @@ from faker import Faker
 
 class Redactor:
     def __init__(self, lang="en_US"):
+        
         self.fake = Faker(lang)
         self.cache = {}
         self._build_patterns()
