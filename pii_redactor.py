@@ -10,6 +10,7 @@ class Redactor:
         self._build_patterns()
 
     def _build_patterns(self):
+        
         self.patterns = [
             ("EMAIL_ADDRESS", re.compile(r"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}")),
             ("PHONE_NUMBER", re.compile(r"(\+?\d{1,3}[\s-]?)?\(?\d{3,5}\)?[\s-]?\d{3,5}[\s-]?\d{3,4}")),
